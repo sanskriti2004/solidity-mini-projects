@@ -6,12 +6,12 @@ pragma solidity ^0.8.26;
  * @dev Simple contract to manage a counter with increment functionality
  */
 contract Counter {
-    uint256 private count; // State variable to store the counter value
+    uint256 private count; // State variable to store the counter value and 
 
     // constructor is called when the contract is deployed and count is set to 0
-     constructor() public {
-        count = 0;
-     }
+    //  constructor() public {
+    //     count = 0;
+    //  }
 
      /**
      * @dev Retrieves the current count value.
